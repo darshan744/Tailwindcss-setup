@@ -22,5 +22,5 @@
 
   },
   "include": ["src/**/*"],
-  "exclude": ["src/*/index_spec.ts"]
+  "exclude": ["Tests/index_spec.ts"]
 }
