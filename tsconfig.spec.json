@@ -1,0 +1,12 @@
+
+// tailwindcss-setup/tsconfig.spec.json
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../out-tsc/spec",
+    "types": ["jasmine", "node"]
+  },
+  "files": [
+    "src/tailwindcss-setup/index_spec.ts"
+  ]
+}
