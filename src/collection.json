@@ -2,8 +2,8 @@
   "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
   "schematics": {
     "tailwindcss-setup": {
-      "description": "A blank schematic.",
-      "factory": "./tailwindcss-setup/index#tailwindcssSetup"
+      "description": "This schematics will help in efficiently setting up tailwindcss for an Angular Project. This project adds config files .postcssrc.json and etc for initializing tailwindcss V 4.1.4 ",
+      "factory": "./index#tailwindcssSetup"
     }
   }
 }
